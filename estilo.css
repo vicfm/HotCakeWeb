@@ -1,0 +1,119 @@
+body
+{
+	font-family: sans-serif;
+	font-size: 24px;
+	margin: 0 auto;
+	max-width: 500px;
+}
+footer
+{
+	height: 150px;
+	line-height: 75px;
+	text-align: center;
+	color: #555555;
+}
+header figure img /* aqui hago que la imagen se incline 6 grados a la derecha*/
+{
+	-webkit-transform: rotate(-6deg);
+}
+header figure
+{
+	height: 100px;
+	line-height: 130px;
+	text-align: right;
+}
+#caja1
+{
+	border-color: red;
+}
+#caja2
+{
+	/*background: #cc3333;
+	color: white;*/
+	font-weight: bold;
+}
+#caja3
+{
+	/*background: #cc3333;
+	color: white;*/
+	font-weight: bold;
+}
+#caja6
+{
+	font-weight: bold;
+}
+#cajeta img
+{
+	height: 150px;
+	vertical-align: middle;
+}
+#img_hotcake
+{
+	width: 600px;
+	text-align: left;
+	overflow: auto; 
+}
+#img_fresa img
+{
+	height: 150px;
+	vertical-align: middle;
+}
+#img_durazno img
+{
+	height: 150px;
+	vertical-align: middle;
+}
+#ordenes
+{
+	padding: 10px 0px 60px 0px;
+}
+#sabores
+{
+	color: #f77f00;
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 70px;
+	line-height: 80px;
+	text-align: center;
+}
+#tel
+{
+	display: inline-block;
+	font-size: .7em;
+	font-weight: bold;
+	margin: 0;
+	width: 140px;
+}
+#ventas
+{
+	color: #666666;
+	font-size: 1em;
+	display: inline-block;
+	text-align: right;
+	width: 200px;
+}
+.tamano
+{	
+	display: inline-block;
+	height: 150px;
+	width: 200px;
+	text-align: center; /*con esta linea centro el texto horizontalmente en todas las cajas*/
+	line-height: 150px; /*esta linea me permite centrar verticalmente*/
+
+}
+
+@media screen and (max-width: 400px){
+	
+	body
+	{
+		width: 400px;
+	}
+	#img_hotcake
+	{
+		width: 400px;
+	}
+	#img_hotcake figure img
+	{
+		width: 400px;
+	}
+}
